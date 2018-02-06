@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_view">
+    <record_update table="sys_ui_write">
     <sys_ui_view action="INSERT_OR_UPDATE">
+         <sys_ui_write action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
         <name>User</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_class_name>sys_ui_write</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-26 21:55:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
@@ -22,4 +25,5 @@
         <title>User</title>
         <user/>
     </sys_ui_view>
+    </sys_ui_write>
 </record_update>
